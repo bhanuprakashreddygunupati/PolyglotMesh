@@ -7,8 +7,8 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class PolyglotConfiguration {
 
-    @Bean(destroyMethod = "close")
-    public Engine polyglotEngine() {
-        return Engine.newBuilder().build();
-    }
+    // @Bean(destroyMethod = "close")
+    // public Engine polyglotEngine() {
+    //     return Engine.newBuilder().build();
+    // }
 }
